@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Baskerville v1.00\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-04 16:05+0100\n"
+"PO-Revision-Date: 2016-08-04 16:05+0100\n"
+"Last-Translator: Martin Kirchgessner <martin.kirch@gmail.com>\n"
+"Language-Team: Martin Kirchgessner <martin.kirch@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: 404.php:19
+msgid ""
+"It seems like you have tried to open a page that doesn't exist. It could "
+"have been deleted, moved, or it never existed at all. You are welcome to "
+"search for what you are looking for with the form below."
+msgstr ""
+"Il semble que vous essayiez d'accéder à une page qui n'existe pas. Elle a "
+"peut-être été supprimée, déplacée, ou n'a jamais existé. Utilisez le moteur "
+"de recherche ci-dessous pour retrouver ce que vous cherchez."
+
+#: archive.php:8
+msgid "Date"
+msgstr "Date"
+
+#: archive.php:10
+msgid "Month"
+msgstr "Mois"
+
+#: archive.php:12
+msgid "Year"
+msgstr "Année"
+
+#: archive.php:14
+msgid "Category"
+msgstr "Catégorie"
+
+#: archive.php:16
+msgid "Tag"
+msgstr "Mot-clé"
+
+#: archive.php:19
+msgid "Author"
+msgstr "Auteur"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "Archive"
+
+#: archive.php:62 index.php:53 search.php:39
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: archive.php:64 index.php:55 search.php:41
+msgid "Newer posts"
+msgstr "Articles plus récents"
+
+#: comments.php:16
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Commentaire"
+msgstr[1] "Commentaires"
+
+#: comments.php:22
+msgid "Add yours"
+msgstr "Ajoutez le votre"
+
+#: comments.php:43
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Rétrolien"
+msgstr[1] "Rétroliens"
+
+#: comments.php:61
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:63
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:84
+msgid "Your email address will not be published."
+msgstr "Votre adresse mél ne sera pas publiée."
+
+#: comments.php:93
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:96
+msgid "Email"
+msgstr "Mél"
+
+#: comments.php:99 template-contributors.php:87
+msgid "Website"
+msgstr "Site Internet"
+
+#: content-aside.php:11 content-audio.php:7 content-gallery.php:5
+#: content-image.php:1 content-image.php:7 content-link.php:8
+#: content-quote.php:5 content-video.php:5 content.php:5
+msgid "Sticky post"
+msgstr "Article épinglé"
+
+#: footer.php:27 searchform.php:2
+msgid "Search form"
+msgstr "Entrez votre recherche"
+
+#: footer.php:62 sidebar.php:27
+msgid "Latest posts"
+msgstr "Derniers articles"
+
+#: footer.php:103 sidebar.php:49
+msgid "Text widget"
+msgstr "Widget de Texte"
+
+#: footer.php:104 sidebar.php:53
+msgid ""
+"These widgets are displayed because you haven't added any widgets of your "
+"own yet. You can do so at Appearance > Widgets in the WordPress settings."
+msgstr ""
+"Ces widgets s'affichent parce que vous n'avez pas encore ajouté les votres. "
+"Vous pouvez le faire dans la section Apparence > Widgets des paramètres "
+"WordPress."
+
+#: footer.php:125
+#, php-format
+msgid "Powered by <a href=\"%s\">WordPress</a>"
+msgstr "Propulsé par <a href=\"%s\">WordPress</a>"
+
+#: footer.php:131
+#, php-format
+msgid "Theme by <a href=\"%s\">Anders Noren</a>"
+msgstr "Theme par <a href=\"%s\">Anders Noren</a>"
+
+#: footer.php:131
+msgid "To the top"
+msgstr "Retour en haut"
+
+#: footer.php:131
+msgid "Up"
+msgstr "Haut"
+
+#: functions.php:99
+msgid "Footer A"
+msgstr "Pied de page A"
+
+#: functions.php:101
+msgid "Widgets in this area will be shown in the left column in the footer."
+msgstr ""
+"Les widgets de cette zone s'afficheront dans la colonne de gauche du pied de "
+"page."
+
+#: functions.php:108
+msgid "Footer B"
+msgstr "Pied de page B"
+
+#: functions.php:110
+msgid "Widgets in this area will be shown in the middle column in the footer."
+msgstr ""
+"Les widgets de cette zone s'afficheront dans la colonne centrale du pied de "
+"page."
+
+#: functions.php:117
+msgid "Footer C"
+msgstr "Pied de page C"
+
+#: functions.php:119
+msgid "Widgets in this area will be shown in the right column in the footer."
+msgstr ""
+"Les widgets de cette zone s'afficheront dans la colonne de droite du pied de "
+"page."
+
+#: functions.php:126
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:128
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr "Les widgets de cette zone s'afficheront dans la barre latérale."
+
+#: functions.php:217
+msgid "Continue Reading"
+msgstr "Lire la suite"
+
+#: functions.php:318
+msgid "Pingback:"
+msgstr "Rétrolien:"
+
+#: functions.php:318
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: functions.php:344 functions.php:368
+msgid "Edit"
+msgstr "Modifier"
+
+#: functions.php:346 functions.php:370
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:358
+msgid "Awaiting moderation"
+msgstr "En attente de modération"
+
+#: functions.php:409
+msgid "Show email"
+msgstr "Affiche le mél"
+
+#: functions.php:413
+msgid ""
+"Check if you want to display your email address in single posts and the "
+"contributors page template."
+msgstr ""
+"Cochez cette case si vous voulez afficher votre adresse mél dans les "
+"articles et sur la page des contributeurs."
+
+#: functions.php:442
+msgid "Baskerville Options"
+msgstr "Options de Baskerville"
+
+#: functions.php:445
+msgid "Allows you to customize some settings for Baskerville."
+msgstr "Vous permet de choisir quelques paramètres pour Baskerville."
+
+#: functions.php:450 functions.php:464
+msgid "Logo"
+msgstr "Logo"
+
+#: image.php:34
+msgid "About the attachment"
+msgstr "A propos du fichier attaché"
+
+#: image.php:57 page.php:57 single.php:263 template-archives.php:135
+#: template-fullwidth.php:67 template-nosidebar.php:65
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+"Nous n'avons pas trouvé de contenu qui corresponde à votre recherche. "
+"Veillez ré-essayer."
+
+#: index.php:15
+#, php-format
+msgid "Page %s of %s"
+msgstr "Page %s sur %s"
+
+#: search.php:7
+msgid "Search results"
+msgstr "Résultats de la recherche"
+
+#: search.php:55
+msgid "No results. Try again, would you kindly?"
+msgstr "Pas de résultats. Voulez-vous ré-essayer ?"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Chercher"
+
+#: single.php:177
+msgid "Author archive"
+msgstr "Archives de l'auteur"
+
+#: single.php:185
+msgid "Author website"
+msgstr "Site Internet de l'auteur"
+
+#: single.php:203
+msgid "on Twitter"
+msgstr "sur Twitter"
+
+#: single.php:235
+msgid "Previous post:"
+msgstr "Article précédent:"
+
+#: single.php:235
+msgid "Previous post"
+msgstr "Article précédent"
+
+#: single.php:243
+msgid "Next post:"
+msgstr "Article suivant:"
+
+#: single.php:243
+msgid "Next post"
+msgstr "Article suivant"
+
+#: single.php:247
+msgid "Edit post"
+msgstr "Modifier l'article"
+
+#: template-archives.php:57
+msgid "Last 30 Posts"
+msgstr "30 derniers articles"
+
+#: template-archives.php:71
+msgid "Archives by Categories"
+msgstr "Archives par catégorie"
+
+#: template-archives.php:77
+msgid "Archives by Tags"
+msgstr "Archives par mots-clés"
+
+#: template-archives.php:84
+#, php-format
+msgid "View all posts in %s"
+msgstr "Voir tous les articles dans %s"
+
+#: template-archives.php:95
+msgid "Contributors"
+msgstr "Contributeurs"
+
+#: template-archives.php:101
+msgid "Archives by Year"
+msgstr "Archives par année"
+
+#: template-archives.php:107
+msgid "Archives by Month"
+msgstr "Archives par mois"
+
+#: template-archives.php:113
+msgid "Archives by Day"
+msgstr "Archives par jour"
+
+#: template-contributors.php:85
+msgid "E-mail"
+msgstr "Mél"
+
+#: template-contributors.php:88
+msgid "Twitter"
+msgstr "Twitter"
+
+#: widgets/dribbble-widget.php:10
+msgid "Displays your latest Dribbble photos."
+msgstr "Affiche vos dernières photos Dribbble."
+
+#: widgets/dribbble-widget.php:11
+msgid "Dribbble Widget"
+msgstr "Widget Dribbble"
+
+#: widgets/dribbble-widget.php:53
+#, php-format
+msgid "Follow %s on Dribbble"
+msgstr "Suivre %s sur Dribbble"
+
+#: widgets/dribbble-widget.php:80 widgets/flickr-widget.php:59
+#: widgets/video-widget.php:65
+msgid "Title"
+msgstr "Titre"
+
+#: widgets/dribbble-widget.php:86
+msgid "Dribbble username"
+msgstr "Nom d'utilisateur Dribbble"
+
+#: widgets/dribbble-widget.php:92 widgets/flickr-widget.php:71
+msgid "Number of images to display:"
+msgstr "Nombre d'images à afficher :"
+
+#: widgets/flickr-widget.php:8
+msgid "Displays your latest Flickr photos."
+msgstr "Affiche vos dernières photos Flickr."
+
+#: widgets/flickr-widget.php:9
+msgid "Flickr Widget"
+msgstr "Widget Flickr"
+
+#: widgets/flickr-widget.php:37
+msgid "More on Flickr"
+msgstr "Plus sur Flickr"
+
+#: widgets/flickr-widget.php:65
+msgid ""
+"Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</"
+"a>):"
+msgstr ""
+"Identifiant Flickr (utilisez <a target=\"_blank\" href=\"http://www.idgettr."
+"com\">idGettr</a>) :"
+
+#: widgets/video-widget.php:8
+msgid "Displays a video of your choosing."
+msgstr "Affiche une vidéo de votre choix."
+
+#: widgets/video-widget.php:9
+msgid "Video Widget"
+msgstr "Widget Vidéo"
+
+#: widgets/video-widget.php:71
+msgid "Video URL"
+msgstr "URL de la vidéo"
