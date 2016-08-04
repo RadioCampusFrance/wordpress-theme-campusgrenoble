@@ -730,6 +730,7 @@ body a {
 
 /* format standard, format quote, format link */
 
+/*
 .post .post-header:before,
 .page .post-header:before {
 	content: "";
@@ -756,7 +757,7 @@ body a {
 	margin-left: 1px;
 	margin-bottom: -21px;
 }
-
+*/
 
 /* format video, format image */
 
