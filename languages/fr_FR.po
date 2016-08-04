@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Baskerville v1.00\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 16:05+0100\n"
-"PO-Revision-Date: 2016-08-04 16:05+0100\n"
+"POT-Creation-Date: 2016-08-04 17:55+0100\n"
+"PO-Revision-Date: 2016-08-04 17:55+0100\n"
 "Last-Translator: Martin Kirchgessner <martin.kirch@gmail.com>\n"
 "Language-Team: Martin Kirchgessner <martin.kirch@gmail.com>\n"
 "Language: fr_FR\n"
@@ -59,7 +59,7 @@ msgstr "Auteur"
 
 #: archive.php:21
 msgid "Archive"
-msgstr "Archive"
+msgstr "Archives"
 
 #: archive.php:62 index.php:53 search.php:39
 msgid "Older posts"
@@ -99,7 +99,7 @@ msgstr "Les commentaires sont fermés."
 
 #: comments.php:84
 msgid "Your email address will not be published."
-msgstr "Votre adresse mél ne sera pas publiée."
+msgstr "Votre adresse de courriel ne sera pas publiée."
 
 #: comments.php:93
 msgid "Name"
@@ -107,7 +107,7 @@ msgstr "Nom"
 
 #: comments.php:96
 msgid "Email"
-msgstr "Mél"
+msgstr "Courriel"
 
 #: comments.php:99 template-contributors.php:87
 msgid "Website"
@@ -222,14 +222,14 @@ msgstr "En attente de modération"
 
 #: functions.php:409
 msgid "Show email"
-msgstr "Affiche le mél"
+msgstr "Afficher le courriel"
 
 #: functions.php:413
 msgid ""
 "Check if you want to display your email address in single posts and the "
 "contributors page template."
 msgstr ""
-"Cochez cette case si vous voulez afficher votre adresse mél dans les "
+"Cochez cette case si vous voulez afficher votre adresse de courriel dans les "
 "articles et sur la page des contributeurs."
 
 #: functions.php:442
@@ -339,7 +339,7 @@ msgstr "Archives par jour"
 
 #: template-contributors.php:85
 msgid "E-mail"
-msgstr "Mél"
+msgstr "Courriel"
 
 #: template-contributors.php:88
 msgid "Twitter"
