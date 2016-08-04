@@ -612,10 +612,13 @@ body a {
 
 /*  Featured media  ----------------------------------------- */
 
+.featured-media { text-align: center; }
 
+/*
 .featured-media a,
 .featured-media img,
 .featured-media iframe { display: block; }
+*/
 
 .featured-media iframe,
 .featured-media object { border: none; margin: 0; }
