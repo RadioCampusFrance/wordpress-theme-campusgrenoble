@@ -4,7 +4,7 @@ Copyright
 Baskerville WordPress Theme, Copyright 2015 Anders Norén
 Baskerville is distributed under the terms of the GNU GPL v2
 
-
+2016 - Modifications by Martin Kirchgessner in order to fit on campusgrenoble.org .
 
 Install Steps
 --------------
