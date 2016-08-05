@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Baskerville v1.00\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 17:55+0100\n"
-"PO-Revision-Date: 2016-08-04 17:55+0100\n"
+"POT-Creation-Date: 2016-08-05 16:40+0100\n"
+"PO-Revision-Date: 2016-08-05 17:09+0100\n"
 "Last-Translator: Martin Kirchgessner <martin.kirch@gmail.com>\n"
 "Language-Team: Martin Kirchgessner <martin.kirch@gmail.com>\n"
 "Language: fr_FR\n"
@@ -58,14 +58,18 @@ msgid "Author"
 msgstr "Auteur"
 
 #: archive.php:21
+msgid "Podcasts"
+msgstr "Podcasts"
+
+#: archive.php:23
 msgid "Archive"
 msgstr "Archives"
 
-#: archive.php:62 index.php:53 search.php:39
+#: archive.php:64 index.php:53 search.php:39
 msgid "Older posts"
 msgstr "Articles plus anciens"
 
-#: archive.php:64 index.php:55 search.php:41
+#: archive.php:66 index.php:55 search.php:41
 msgid "Newer posts"
 msgstr "Articles plus récents"
 
@@ -147,8 +151,8 @@ msgstr "Propulsé par <a href=\"%s\">WordPress</a>"
 
 #: footer.php:131
 #, php-format
-msgid "Theme by <a href=\"%s\">Anders Noren</a>"
-msgstr "Theme par <a href=\"%s\">Anders Noren</a>"
+msgid "Theme by <a href=\"%s\">Anders Noren</a> and Martin Kirchgessner"
+msgstr "Theme par <a href=\"%s\">Anders Noren</a> et Martin Kirchgessner"
 
 #: footer.php:131
 msgid "To the top"
@@ -200,31 +204,31 @@ msgstr "Les widgets de cette zone s'afficheront dans la barre latérale."
 msgid "Continue Reading"
 msgstr "Lire la suite"
 
-#: functions.php:318
+#: functions.php:314
 msgid "Pingback:"
 msgstr "Rétrolien:"
 
-#: functions.php:318
+#: functions.php:314
 msgid "(Edit)"
 msgstr "(Modifier)"
 
-#: functions.php:344 functions.php:368
+#: functions.php:340 functions.php:364
 msgid "Edit"
 msgstr "Modifier"
 
-#: functions.php:346 functions.php:370
+#: functions.php:342 functions.php:366
 msgid "Reply"
 msgstr "Répondre"
 
-#: functions.php:358
+#: functions.php:354
 msgid "Awaiting moderation"
 msgstr "En attente de modération"
 
-#: functions.php:409
+#: functions.php:405
 msgid "Show email"
 msgstr "Afficher le courriel"
 
-#: functions.php:413
+#: functions.php:409
 msgid ""
 "Check if you want to display your email address in single posts and the "
 "contributors page template."
@@ -232,15 +236,15 @@ msgstr ""
 "Cochez cette case si vous voulez afficher votre adresse de courriel dans les "
 "articles et sur la page des contributeurs."
 
-#: functions.php:442
+#: functions.php:438
 msgid "Baskerville Options"
 msgstr "Options de Baskerville"
 
-#: functions.php:445
+#: functions.php:441
 msgid "Allows you to customize some settings for Baskerville."
 msgstr "Vous permet de choisir quelques paramètres pour Baskerville."
 
-#: functions.php:450 functions.php:464
+#: functions.php:446 functions.php:460
 msgid "Logo"
 msgstr "Logo"
 
@@ -248,7 +252,7 @@ msgstr "Logo"
 msgid "About the attachment"
 msgstr "A propos du fichier attaché"
 
-#: image.php:57 page.php:57 single.php:263 template-archives.php:135
+#: image.php:57 page.php:57 single.php:203 template-archives.php:135
 #: template-fullwidth.php:67 template-nosidebar.php:65
 msgid "We couldn't find any posts that matched your query. Please try again."
 msgstr ""
@@ -272,35 +276,23 @@ msgstr "Pas de résultats. Voulez-vous ré-essayer ?"
 msgid "Search"
 msgstr "Chercher"
 
-#: single.php:177
-msgid "Author archive"
-msgstr "Archives de l'auteur"
-
-#: single.php:185
-msgid "Author website"
-msgstr "Site Internet de l'auteur"
-
-#: single.php:203
-msgid "on Twitter"
-msgstr "sur Twitter"
-
-#: single.php:235
+#: single.php:165
 msgid "Previous post:"
 msgstr "Article précédent:"
 
-#: single.php:235
+#: single.php:165
 msgid "Previous post"
 msgstr "Article précédent"
 
-#: single.php:243
+#: single.php:173
 msgid "Next post:"
 msgstr "Article suivant:"
 
-#: single.php:243
+#: single.php:173
 msgid "Next post"
 msgstr "Article suivant"
 
-#: single.php:247
+#: single.php:177
 msgid "Edit post"
 msgstr "Modifier l'article"
 
@@ -402,3 +394,12 @@ msgstr "Widget Vidéo"
 #: widgets/video-widget.php:71
 msgid "Video URL"
 msgstr "URL de la vidéo"
+
+#~ msgid "Author archive"
+#~ msgstr "Archives de l'auteur"
+
+#~ msgid "Author website"
+#~ msgstr "Site Internet de l'auteur"
+
+#~ msgid "on Twitter"
+#~ msgstr "sur Twitter"
