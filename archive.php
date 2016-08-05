@@ -18,7 +18,7 @@
 			<?php $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author)); ?>
 			<h5><?php _e( 'Author', 'baskerville' ); ?></h5> <h3><?php echo $curauth->display_name; ?></h3>
 		<?php elseif ( get_post_type() == 'podcast' ) : ?>
-			<h3><?php _e( 'Podcasts', 'baskerville' ); ?></h3>
+			<h3><?php _e( 'Podcasts', 'baskerville' ); $single=single_tag_title( '', false ); if(!empty($single)) {echo ' - '.$single;} ?></h3>
 		<?php else : ?>
 			<h5><?php _e( 'Archive', 'baskerville' ); ?></h5>
 		<?php endif; ?>
