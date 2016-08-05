@@ -687,6 +687,8 @@ body a {
 
 .post-excerpt a:hover { text-decoration: underline; }
 
+.post-excerpt li { line-height: 150%; }
+
 .posts .post-meta {
 	background: #F9F9F9;
 	padding: 0 10%;
