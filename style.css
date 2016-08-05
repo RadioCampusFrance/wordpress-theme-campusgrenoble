@@ -685,7 +685,7 @@ body a {
 	margin-top: 1.1em;
 }
 
-.post-excerpt .more-link:hover { text-decoration: underline; }
+.post-excerpt a:hover { text-decoration: underline; }
 
 .posts .post-meta {
 	background: #F9F9F9;
