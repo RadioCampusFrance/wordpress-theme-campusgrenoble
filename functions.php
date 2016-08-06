@@ -465,6 +465,33 @@ class baskerville_Customize {
       //4. We can also change built-in settings by modifying properties. For instance, let's make some stuff use live preview JS...
       $wp_customize->get_setting( 'blogname' )->transport = 'postMessage';
       $wp_customize->get_setting( 'blogdescription' )->transport = 'postMessage';
+
+			//5. Customize the Facebook and Twitter links
+			$wp_customize->add_section( 'baskerville_social_section' , array(
+				'title'       => 'Facebook/Twitter',
+				'priority'    => 40,
+				'description' => "Change the header's links to your own Twitter and Facebook accounts",
+			));
+			$wp_customize->add_setting( 'baskerville_facebook',
+				array(
+					'sanitize_callback' => 'esc_url_raw'
+				)
+			);
+			$wp_customize->add_setting( 'baskerville_twitter',
+				array(
+					'sanitize_callback' => 'esc_url_raw'
+				)
+			);
+			$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'baskerville_facebook', array(
+		    'label'    => 'Facebook URL',
+		    'section'  => 'baskerville_social_section',
+		    'settings' => 'baskerville_facebook',
+			) ) );
+			$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'baskerville_twitter', array(
+		    'label'    => 'Twitter URL',
+		    'section'  => 'baskerville_social_section',
+		    'settings' => 'baskerville_twitter',
+			) ) );
    }
 
    public static function generate_css( $selector, $style, $mod_name, $prefix='', $postfix='', $echo=true ) {

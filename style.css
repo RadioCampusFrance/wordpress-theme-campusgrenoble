@@ -387,6 +387,31 @@ body a {
 /*	4. Navigation
 /* -------------------------------------------------------------------------------- */
 
+.nav-social {
+	float: right;
+	margin:25px 4% 0 0;
+	width: 16px;
+	height: 16px;
+	background: url(images/social2.png) no-repeat;
+	text-indent: -999999px;
+	opacity: 0.6;
+	transition: opacity .25s ease-in-out;
+}
+
+.nav-social:hover{
+	opacity: 1;
+}
+
+.nav-twitter {
+	background-position: -16px 0;
+}
+
+.nav-rss {
+	background-position: -80px 0;
+}
+
+
+
 
 .main-menu {
 	font-family: 'Roboto Slab', sans-serif;
