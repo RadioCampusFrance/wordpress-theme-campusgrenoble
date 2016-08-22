@@ -61,9 +61,7 @@
 
 				<div class="nav-toggle fleft hidden">
 
-					<div class="bar"></div>
-					<div class="bar"></div>
-					<div class="bar"></div>
+					MENU
 
 					<div class="clear"></div>
 

@@ -2460,6 +2460,7 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 	.nav-toggle {
 		display: block;
 		padding: 25px 0;
+		color: #ccc;
 	}
 
 	.nav-toggle .bar {
@@ -2473,7 +2474,7 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 
 	.nav-toggle .bar:first-child { margin-top: 0; }
 
-	.nav-toggle:hover { cursor: pointer; }
+	.nav-toggle:hover { cursor: pointer; color:#fff;}
 	.nav-toggle.active .bar { background: #fff; }
 
 	.mobile-menu li { border-top: 1px solid rgba(255,255,255, 0.1); }
