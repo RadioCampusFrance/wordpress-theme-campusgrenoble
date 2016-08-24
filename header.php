@@ -26,6 +26,17 @@
 			</div> <!-- /header-search-block -->
 
 			<div class="header-inner section-inner">
+				<?php if ( has_nav_menu( 'header' ) ) {
+					echo '<ul class="main-menu">';
+					wp_nav_menu( array(
+
+						'container' => '',
+						'items_wrap' => '%3$s',
+						'theme_location' => 'header'
+
+					) );
+					echo '</ul> <!-- /main-menu -->';
+				} ?>
 
 				<?php if ( get_theme_mod( 'baskerville_logo' ) ) : ?>
 

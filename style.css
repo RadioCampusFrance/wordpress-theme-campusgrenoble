@@ -423,7 +423,7 @@ body a {
 
 .main-menu > li { float: left; }
 
-.main-menu > li:before {
+.navigation .main-menu > li:before {
 	content: "/";
 	display: block;
 	position: absolute;
@@ -471,6 +471,31 @@ body a {
 
 .main-menu > .has-children:hover > a::after,
 .main-menu > .page_item_has_children:hover > a::after { border-top-color: #fff; }
+
+
+/* In-header menu  --------------------------------------- */
+
+.header-inner .main-menu {
+	position: absolute;
+	right: 0;
+}
+
+.header-inner .main-menu > li > a {
+	font-size: 1.2em;
+	color: #000;
+}
+
+.header-inner .main-menu > li.podcasts::before {
+	content: "__";
+	text-indent: -999999px;
+	float:left;
+	overflow: hidden;
+	width:16px;
+	height:16px;
+	margin-top: 27px;
+	background: url(images/social2.png) no-repeat;
+	background-position: -80px 0;
+}
 
 
 /* Sub menus --------------------------------------- */
@@ -2453,7 +2478,29 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 
 	/* navigation */
 
-	.main-menu { display: none; }
+.navigation .main-menu { display: none; }
+
+.header-inner .main-menu > li > a {
+	color: white;
+	padding: 0;
+	display:inline;
+}
+
+.header-inner .main-menu {
+	top:151px;
+	z-index:1000;
+	right:50%;
+}
+
+.header-inner .main-menu > li.podcasts::before {
+	margin: 4px 4px 0 0;
+}
+
+
+.header-inner .main-menu > li {
+	margin-left:1em;
+}
+
 
 	.search-toggle { width: 24px; }
 
@@ -2501,6 +2548,16 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 
 
 @media (max-width: 800px) {
+  /* nav */
+
+	.header-inner .main-menu {
+		top:114px;
+	}
+
+	.main-menu > li {
+		float: none;
+		line-height: 1.5;
+	}
 
 
 	/* structure */
@@ -2599,6 +2656,13 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 	.search-toggle { height: 59px; }
 
 	/* navigation */
+
+	.header-inner .main-menu {
+			top:97px;
+			right: auto;
+			left:20%;
+		}
+
 
 	.navigation-inner { max-width: 90%; }
 

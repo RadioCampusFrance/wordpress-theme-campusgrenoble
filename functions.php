@@ -39,6 +39,9 @@ function baskerville_setup() {
 	// Add nav menu
 	register_nav_menu( 'primary', 'Primary Menu' );
 
+	// Add nav menu
+	register_nav_menu( 'header', 'Boutons à droite du logo' );
+
 	// Make the theme translation ready
 	load_theme_textdomain('baskerville', get_template_directory() . '/languages');
 
